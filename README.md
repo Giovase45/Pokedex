@@ -19,7 +19,14 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Rebuild data with Seed
+5. Clone the file __.env.template__ and rename copy to __.env__ - Add not existent values.
+
+6. Start Application
+```
+npm run start:dev
+```
+
+7. Rebuild data with Seed
 ```
 http://localhost:3000/api/v2/seed
 ```
